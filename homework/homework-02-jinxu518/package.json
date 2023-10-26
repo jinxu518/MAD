@@ -1,0 +1,18 @@
+{
+  "name": "homework-02-jinxu518",
+  "version": "1.0.0",
+  "description": "```JavaScript\r {\r     \"_id\":ObjectId,\r     \"teachers\": [\r         {\"_id\":ObjectId, \"name\":\"Asaad\"},\r         {\"_id\":ObjectId, \"name\":\"Umur\"}\r     ],\r     \"courses\":[\r         {\"_id\":ObjectId, \"title\": \"CS477\", \"students\":[\r             {\"_id\":ObjectId, \"name\":\"John\"},\r             {\"_id\":ObjectId, \"name\":\"Selin\"}\r         ]},\r         {\"_id\":ObjectId, \"title\": \"CS571\", \"students\":[\r             {\"_id\":ObjectId, \"name\":\"Alican\"},\r             {\"_id\":ObjectId, \"name\":\"Dean\"}\r         ]}\r     ]\r }\r ```\r ## Your are responsible on writing an application to have 6 restful APIs which satisfy the following features.\r 1. Add teacher\r 2. Update teacher\r 3. Delete teacher\r 4. Add a new student to specific course\r 5. Update a student's name\r 6. Delete a student",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^6.1.0",
+    "nodemon": "^3.0.1"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "workshop-1-jinxu518",
+  "version": "1.0.0",
+  "description": "```JavaScript\r {\r     \"_id\":ObjectId,\r     \"name\": \"BOA\",\r     \"users\":[\r         {\"_id\":ObjectId, \"name\": \"Michael\", \"address\": \"Fairfield, IA\", \"accounts\":[\r             {\"_id\":ObjectId, \"type\": \"debit\", \"number\": 123, \"routing\": 123, \"amount\": 100},\r         ]}\r     ]\r }\r ```\r ## Assume that there are two types of account, debit and credit.\r Create an Express application that connects to a MongoDB instance (local or cloud service), and write code for the below routes in `app.js` file:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.5.3"
+  }
+}
